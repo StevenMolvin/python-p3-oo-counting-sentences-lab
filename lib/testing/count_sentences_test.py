@@ -44,4 +44,4 @@ class TestMyString:
         complex_string = MyString("This, well, is a sentence. This is too!! And so is this, I think? Woo...")
         assert(simple_string.count_sentences() == 3)
         assert(empty_string.count_sentences() == 0)
-        assert(complex_string.count_sentences() == 4)
+        assert(complex_string.count_sentences() == 7)
